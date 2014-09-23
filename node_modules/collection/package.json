@@ -1,0 +1,63 @@
+{
+  "name": "collection",
+  "id": "collection",
+  "version": "0.1.5",
+  "description": "Node.js cross-platform native collection library",
+  "keywords": [
+    "collection",
+    "native",
+    "util",
+    "vector",
+    "set",
+    "map"
+  ],
+  "author": {
+    "name": "Thomas Feng",
+    "email": "tfeng@berkeley.edu"
+  },
+  "homepage": "http://tfeng.github.io/collection",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfeng/collection.git",
+    "web": "https://github.com/tfeng/collection"
+  },
+  "bugs": {
+    "url": "https://github.com/tfeng/collection/issues"
+  },
+  "main": "./lib/collection.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "bindings": "latest"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "gitHead": "e8e75ab11fbe141603f0db84dfb9c5efb5d5fe20",
+  "_id": "collection@0.1.5",
+  "_shasum": "908c43db1a29ca34b03d23dce807a50b490260bc",
+  "_from": "collection@",
+  "_npmVersion": "1.4.13",
+  "_npmUser": {
+    "name": "tfeng",
+    "email": "tfeng@berkeley.edu"
+  },
+  "maintainers": [
+    {
+      "name": "tfeng",
+      "email": "tfeng@berkeley.edu"
+    }
+  ],
+  "dist": {
+    "shasum": "908c43db1a29ca34b03d23dce807a50b490260bc",
+    "tarball": "http://registry.npmjs.org/collection/-/collection-0.1.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/collection/-/collection-0.1.5.tgz",
+  "readme": "ERROR: No README data found!"
+}
